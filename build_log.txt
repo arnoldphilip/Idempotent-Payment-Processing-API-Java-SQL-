@@ -1,0 +1,230 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.example:system >-------------------------
+[INFO] Building Payment & Task API System 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ system ---
+[INFO] Deleting C:\Users\arph0\Documents\Codes\Payment & Task API System\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ system ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ system ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 17 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/api/TaskController.java:[19,31] variable taskService not initialized in the default constructor
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/TaskService.java:[25,9] cannot find symbol
+  symbol:   variable log
+  location: class com.example.system.service.TaskService
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/TaskService.java:[25,46] cannot find symbol
+  symbol:   method getTitle()
+  location: variable request of type com.example.system.model.TaskRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/TaskService.java:[26,25] cannot find symbol
+  symbol:   method builder()
+  location: class com.example.system.model.Task
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/TaskService.java:[27,31] cannot find symbol
+  symbol:   method getTitle()
+  location: variable request of type com.example.system.model.TaskRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/TaskService.java:[28,37] cannot find symbol
+  symbol:   method getDescription()
+  location: variable request of type com.example.system.model.TaskRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/TaskService.java:[47,9] cannot find symbol
+  symbol:   variable log
+  location: class com.example.system.service.TaskService
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/TaskService.java:[49,30] cannot find symbol
+  symbol:   method getTitle()
+  location: variable request of type com.example.system.model.TaskRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/TaskService.java:[50,36] cannot find symbol
+  symbol:   method getDescription()
+  location: variable request of type com.example.system.model.TaskRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/TaskService.java:[57,9] cannot find symbol
+  symbol:   variable log
+  location: class com.example.system.service.TaskService
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/TaskService.java:[59,13] cannot find symbol
+  symbol:   method setStatus(com.example.system.model.Task.TaskStatus)
+  location: variable task of type com.example.system.model.Task
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/config/IdempotencyFilter.java:[37,38] cannot find symbol
+  symbol:   method getResponseCode()
+  location: variable record of type com.example.system.model.IdempotencyRecord
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/config/IdempotencyFilter.java:[39,46] cannot find symbol
+  symbol:   method getResponsePayload()
+  location: variable record of type com.example.system.model.IdempotencyRecord
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/config/IdempotencyFilter.java:[53,61] cannot find symbol
+  symbol:   method builder()
+  location: class com.example.system.model.IdempotencyRecord
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[25,9] cannot find symbol
+  symbol:   variable log
+  location: class com.example.system.service.PaymentService
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[25,79] cannot find symbol
+  symbol:   method getTaskId()
+  location: variable request of type com.example.system.model.PaymentRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[26,24] cannot find symbol
+  symbol:   method getExternalReference()
+  location: variable request of type com.example.system.model.PaymentRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[28,68] cannot find symbol
+  symbol:   method getExternalReference()
+  location: variable request of type com.example.system.model.PaymentRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[32,52] cannot find symbol
+  symbol:   method getTaskId()
+  location: variable request of type com.example.system.model.PaymentRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[35,46] cannot find symbol
+  symbol:   method builder()
+  location: class com.example.system.model.Transaction
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[37,32] cannot find symbol
+  symbol:   method getAmount()
+  location: variable request of type com.example.system.model.PaymentRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[38,34] cannot find symbol
+  symbol:   method getCurrency()
+  location: variable request of type com.example.system.model.PaymentRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[39,43] cannot find symbol
+  symbol:   method getExternalReference()
+  location: variable request of type com.example.system.model.PaymentRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[48,40] cannot find symbol
+  symbol:   method getExternalReference()
+  location: variable request of type com.example.system.model.PaymentRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[50,20] cannot find symbol
+  symbol:   method setStatus(com.example.system.model.Transaction.TransactionStatus)
+  location: variable transaction of type com.example.system.model.Transaction
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[54,46] cannot find symbol
+  symbol:   method getId()
+  location: variable task of type com.example.system.model.Task
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[56,46] cannot find symbol
+  symbol:   method getId()
+  location: variable task of type com.example.system.model.Task
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/ExternalPaymentProvider.java:[18,9] cannot find symbol
+  symbol:   variable log
+  location: class com.example.system.service.ExternalPaymentProvider
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/ExternalPaymentProvider.java:[29,13] cannot find symbol
+  symbol:   variable log
+  location: class com.example.system.service.ExternalPaymentProvider
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/ExternalPaymentProvider.java:[33,9] cannot find symbol
+  symbol:   variable log
+  location: class com.example.system.service.ExternalPaymentProvider
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/exception/GlobalExceptionHandler.java:[32,30] cannot find symbol
+  symbol:   method getStatus()
+  location: variable ex of type com.example.system.exception.BusinessException
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/exception/GlobalExceptionHandler.java:[33,29] cannot find symbol
+  symbol:   method getStatus()
+  location: variable ex of type com.example.system.exception.BusinessException
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/exception/GlobalExceptionHandler.java:[36,45] cannot find symbol
+  symbol:   method getStatus()
+  location: variable ex of type com.example.system.exception.BusinessException
+[INFO] 33 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.026 s
+[INFO] Finished at: 2026-02-09T20:07:37+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project system: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/api/TaskController.java:[19,31] variable taskService not initialized in the default constructor
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/TaskService.java:[25,9] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.example.system.service.TaskService
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/TaskService.java:[25,46] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable request of type com.example.system.model.TaskRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/TaskService.java:[26,25] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.example.system.model.Task
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/TaskService.java:[27,31] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable request of type com.example.system.model.TaskRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/TaskService.java:[28,37] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable request of type com.example.system.model.TaskRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/TaskService.java:[47,9] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.example.system.service.TaskService
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/TaskService.java:[49,30] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable request of type com.example.system.model.TaskRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/TaskService.java:[50,36] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable request of type com.example.system.model.TaskRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/TaskService.java:[57,9] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.example.system.service.TaskService
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/TaskService.java:[59,13] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.example.system.model.Task.TaskStatus)
+[ERROR]   location: variable task of type com.example.system.model.Task
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/config/IdempotencyFilter.java:[37,38] cannot find symbol
+[ERROR]   symbol:   method getResponseCode()
+[ERROR]   location: variable record of type com.example.system.model.IdempotencyRecord
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/config/IdempotencyFilter.java:[39,46] cannot find symbol
+[ERROR]   symbol:   method getResponsePayload()
+[ERROR]   location: variable record of type com.example.system.model.IdempotencyRecord
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/config/IdempotencyFilter.java:[53,61] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.example.system.model.IdempotencyRecord
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[25,9] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.example.system.service.PaymentService
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[25,79] cannot find symbol
+[ERROR]   symbol:   method getTaskId()
+[ERROR]   location: variable request of type com.example.system.model.PaymentRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[26,24] cannot find symbol
+[ERROR]   symbol:   method getExternalReference()
+[ERROR]   location: variable request of type com.example.system.model.PaymentRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[28,68] cannot find symbol
+[ERROR]   symbol:   method getExternalReference()
+[ERROR]   location: variable request of type com.example.system.model.PaymentRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[32,52] cannot find symbol
+[ERROR]   symbol:   method getTaskId()
+[ERROR]   location: variable request of type com.example.system.model.PaymentRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[35,46] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.example.system.model.Transaction
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[37,32] cannot find symbol
+[ERROR]   symbol:   method getAmount()
+[ERROR]   location: variable request of type com.example.system.model.PaymentRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[38,34] cannot find symbol
+[ERROR]   symbol:   method getCurrency()
+[ERROR]   location: variable request of type com.example.system.model.PaymentRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[39,43] cannot find symbol
+[ERROR]   symbol:   method getExternalReference()
+[ERROR]   location: variable request of type com.example.system.model.PaymentRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[48,40] cannot find symbol
+[ERROR]   symbol:   method getExternalReference()
+[ERROR]   location: variable request of type com.example.system.model.PaymentRequest
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[50,20] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.example.system.model.Transaction.TransactionStatus)
+[ERROR]   location: variable transaction of type com.example.system.model.Transaction
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[54,46] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable task of type com.example.system.model.Task
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/PaymentService.java:[56,46] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable task of type com.example.system.model.Task
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/ExternalPaymentProvider.java:[18,9] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.example.system.service.ExternalPaymentProvider
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/ExternalPaymentProvider.java:[29,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.example.system.service.ExternalPaymentProvider
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/service/ExternalPaymentProvider.java:[33,9] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.example.system.service.ExternalPaymentProvider
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/exception/GlobalExceptionHandler.java:[32,30] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable ex of type com.example.system.exception.BusinessException
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/exception/GlobalExceptionHandler.java:[33,29] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable ex of type com.example.system.exception.BusinessException
+[ERROR] /C:/Users/arph0/Documents/Codes/Payment & Task API System/src/main/java/com/example/system/exception/GlobalExceptionHandler.java:[36,45] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable ex of type com.example.system.exception.BusinessException
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
