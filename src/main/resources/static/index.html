@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment & Task Nexus</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lab.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body class="dark-theme">
     <div class="glass-container">
         <aside class="sidebar">
@@ -84,7 +87,76 @@
                 </div>
             </div>
 
-            <!-- Additional views will be handled dynamically in part -->
+            <div id="payments-view" class="tab-view">
+                <div class="view-header">
+                    <h3>Payment Transactions</h3>
+                </div>
+                <div class="glass-card">
+                    <p class="section-intro">Track all billing events and external references here.</p>
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Transaction ID</th>
+                                <th>Amount</th>
+                                <th>Status</th>
+                                <th>Task ID</th>
+                                <th>External Ref</th>
+                            </tr>
+                        </thead>
+                        <tbody id="payments-table-body">
+                            <tr>
+                                <td colspan="5" class="empty-msg">Transaction history loading...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="idempotency-view" class="tab-view">
+                <div class="view-header">
+                    <h3>Idempotency Lab</h3>
+                </div>
+                <div class="lab-grid">
+                    <div class="glass-card lab-card">
+                        <h4>Simulation: Duplicate Payment</h4>
+                        <p>This lab demonstrates how the `X-Idempotency-Key` prevents multiple charges for the same
+                            request.</p>
+                        <div class="lab-controls">
+                            <button class="btn-primary" onclick="runIdempotencyTest()">Trigger Duplicate
+                                Requests</button>
+                        </div>
+                        <div id="idempotency-log" class="log-output">
+                            <p class="muted">Press the button to start simulation...</p>
+                        </div>
+                    </div>
+                    <div class="glass-card lab-card">
+                        <h4>Active Idempotency Keys</h4>
+                        <div id="keys-list" class="list-container">
+                            <!-- Keys list -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="concurrency-view" class="tab-view">
+                <div class="view-header">
+                    <h3>Concurrency Lab</h3>
+                </div>
+                <div class="lab-grid">
+                    <div class="glass-card lab-card">
+                        <h4>Simulation: Race Condition</h4>
+                        <p>Test how "Optimistic Locking" prevents data corruption when two users edit the same task
+                            simultaneously.</p>
+                        <div class="lab-controls">
+                            <button class="btn-primary" onclick="runConcurrencyTest()">Run Parallel Update
+                                Simulation</button>
+                        </div>
+                        <div id="concurrency-log" class="log-output">
+                            <p class="muted">Waiting for simulation...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
     </div>
 
@@ -114,4 +186,5 @@
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
